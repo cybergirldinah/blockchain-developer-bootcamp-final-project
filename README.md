@@ -1,14 +1,18 @@
-# Final Project: Bank App + ERC20 Token
-
 #### Demo
-[Consensys Final Project Demo](https://www.youtube.com/watch?v=TS497hNr8SY)
-#### Front End
+[Demo](https://www.youtube.com/watch?v=TS497hNr8SY)  
+[Gringotts Bank App](https://gringotts-defi.vercel.app/)
 
-[Gringotts Bank](https://gringotts-defi.vercel.app/)
+### Project Description
+Wizards & witches can deposit their magical Ether currency into Gringotts bank for safe keeping. As a reward, Gringotts bank account hodlers will receive 1000 Galleons for making and hodling a deposit. Note that in the near future, before we launch our banking program to the main wizarding network on Ethereum, account hodlers must hodl a deposit for a minimum of 1 year without making any withdrawals to receive the Galleons reward. This will help Gringotts in its effort to create an ETH/GAL liquidity pool to further reward our account hodlers.
 
-#### My ETH address & Linked ENS
+Here's how our system works:
 
-`0xbb94F8A45DB40D34aa5a83fc0D33cA25020189e6` | `dinah.eth`
+#### Workflow
+
+  1. User connects MetaMask wallet
+  2. User deposits x ETH in their account
+  3. User's balance is updated once transaction is mined
+  4. User is rewarded Galleon tokens for using the protocol
 
 ## Project Structure
 
@@ -44,7 +48,7 @@ Please ensure `Truffle v5.4.12` is installed to be able to conduct tests. You wi
 
 #### Clone this repository
 
-`git clone https://github.com/cybergirldinah/blockchain-developer-bootcamp-final-project`
+`git clone https://github.com/cybergirldinah/decentralized-banking-app`
 
 #### Install Dependencies
 
@@ -67,19 +71,6 @@ development: {
 
 In the main project folder run:
 `truffle test`
-
-### Project Description
-
-Wizards & witches can deposit their magical Ether currency into Gringotts bank for safe keeping. As a reward, Gringotts bank account hodlers will receive 1000 Galleons for making and hodling a deposit. Note that in the near future, before we launch our banking program to the main wizarding network on Ethereum, account hodlers must hodl a deposit for a minimum of 1 year without making any withdrawals to receive the Galleons reward. This will help Gringotts in its effort to create an ETH/GAL liquidity pool to further reward our account hodlers.
-
-Here's how our system works:
-
-#### Workflow
-
-  1. User connects MetaMask wallet
-  2. User deposits x ETH in their account
-  3. User's balance is updated once transaction is mined
-  4. User is rewarded Galleon tokens for using the protocol
 
 #### Future Improvements
 
